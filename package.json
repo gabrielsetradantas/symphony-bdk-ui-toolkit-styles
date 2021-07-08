@@ -32,11 +32,28 @@
     "autoprefixer": "^10.0.2",
     "babel-loader": "^8.1.0",
     "icon-font-generator": "^2.1.10",
+    "loki": "^0.28.1",
     "markdown-loader": "^6.0.0",
     "postcss": "^8.1.7",
     "postcss-cli": "^8.3.0",
     "sass": "^1.22.10",
     "sass-loader": "^7.2.0",
     "storybook-dark-mode": "^1.0.4"
+  },
+  "loki": {
+    "diffingEngine": "gm",
+    "chromeTolerance": 0.8,
+    "chromeFlags": "--headless --disable-gpu --hide-scrollbars --no-sandbox",
+    "configurations": {
+      "chrome.laptop": {
+        "target": "chrome.app",
+        "width": 1366,
+        "height": 768
+      }
+    },
+    "verboseRenderer": false,
+    "skipStories": "",
+    "chromeEnableAnimations": false
   }
 }
+
