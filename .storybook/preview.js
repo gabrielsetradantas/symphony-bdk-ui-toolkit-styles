@@ -7,7 +7,7 @@ setTimeout(() => init());
 addParameters({
   options: {
     storySort: {
-      order: ['Welcome', 'Components', 'Utils', 'Validation'], 
+      order: ['Welcome', 'Components', 'Utils', 'Validation'],
     },
   },
   darkMode: {
