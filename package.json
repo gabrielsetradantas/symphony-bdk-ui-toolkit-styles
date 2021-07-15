@@ -41,9 +41,9 @@
     "storybook-dark-mode": "^1.0.4"
   },
   "loki": {
-    "diffingEngine": "gm",
-    "chromeTolerance": 0.8,
-    "chromeFlags": "--headless --disable-gpu --hide-scrollbars --no-sandbox",
+    "diffingEngine": "looks-same",
+    "chromeTolerance": 0.0,
+    "chromeFlags": "--headless --hide-scrollbars --no-sandbox",
     "configurations": {
       "chrome.laptop": {
         "target": "chrome.app",
@@ -52,8 +52,7 @@
       }
     },
     "verboseRenderer": false,
-    "skipStories": "",
+    "skipStories": "Welcome",
     "chromeEnableAnimations": false
   }
 }
-

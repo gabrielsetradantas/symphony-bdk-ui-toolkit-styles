@@ -42,7 +42,7 @@ export const Card = () => `
         tempor incididunt ut labore et dolore magna aliqua.</div>
       <div class="tk-size-x-small tk-m-1">
         <button class="tk-button tk-button--secondary tk-mr-1">Button</button>
-        <button class="tk-button tk-button--secondary tk-mr-1">Button</button>
+        <button class="tk-button tk-mr-1">Button</button>
       </div>
     </div>
     <div class="tk-my-5"></div>
