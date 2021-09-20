@@ -4560,10 +4560,10 @@ create-react-context@0.3.0:
     gud "^1.0.0"
     warning "^4.0.3"
 
-creevey@^0.7.32:
-  version "0.7.32"
-  resolved "https://registry.yarnpkg.com/creevey/-/creevey-0.7.32.tgz#9055138cfcbb7c1b02aec3ab66a4f0bba6b5268f"
-  integrity sha512-UMO8XBnE3kHpm/dobqf5TXb37nn2I4gGVDEjhWrhULUQzCiEn6QVuM5QnkIxowZPxa+AEPf9EyzoYsmGkkJUbQ==
+creevey@^0.7.37:
+  version "0.7.37"
+  resolved "https://registry.yarnpkg.com/creevey/-/creevey-0.7.37.tgz#d727d831314a4914a3f610f188eb9db051cdb33a"
+  integrity sha512-+KD3bkUT7J0KNizKfwFtbbgF0MQE8qk4XYdzNaotASuO04AZzrfI9HkE7zVzRr0B1PqXUOdUoYlaEgUl/kcZ5A==
   dependencies:
     "@babel/code-frame" "^7.12.13"
     "@babel/generator" "^7.13.9"
