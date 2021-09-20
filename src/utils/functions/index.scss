@@ -1,9 +1,5 @@
 $UITOOLKIT_REM_BASE: 16 !default;
 
-@function toEm($size, $base: 14) {
-  @return ($size/$base) * 1em;
-}
-
 @function toRem($size) {
   @return ($size/$UITOOLKIT_REM_BASE) * 1rem;
 }
@@ -15,5 +11,5 @@ $SPACING_FACTOR: toRem(8);
 }
 
 @function if-important($important) {
-  @return #{if($important, "!important", "")};
+  @return #{if($important, '!important', '')};
 }
