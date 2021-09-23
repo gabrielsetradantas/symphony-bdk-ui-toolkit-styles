@@ -14,7 +14,7 @@
     "build": "bash ./build.sh",
     "watch": "sass --watch --no-source-map --load-path=node_modules --style compressed uitoolkit.scss:dist/css/uitoolkit.css",
     "icons": "node src/scripts/generate-icons",
-    "test": "yarn creevey"
+    "test": "(yarn start&) && yarn creevey"
   },
   "keywords": [
     "scss",
