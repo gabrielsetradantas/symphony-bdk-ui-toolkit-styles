@@ -3,99 +3,107 @@
   "globalParameters": {},
   "kindParameters": {
     "Components/Avatar": {
-      "fileName": "./stories/avatar.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/avatar.stories.js",
+      "framework": "html"
+    },
+    "Components/Badge": {
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/badge.stories.js",
       "framework": "html"
     },
     "Components/Banner": {
-      "fileName": "./stories/banner.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/banner.stories.js",
       "framework": "html"
     },
     "Components/Button": {
-      "fileName": "./stories/button.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/button.stories.js",
       "framework": "html"
     },
     "Components/Card": {
-      "fileName": "./stories/card.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/card.stories.js",
       "framework": "html"
     },
     "Components/Inputs/Checkbox": {
-      "fileName": "./stories/checkbox.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/checkbox.stories.js",
       "framework": "html"
     },
     "Utils/Color Variables": {
-      "fileName": "./stories/colorVariables.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/colorVariables.stories.js",
       "framework": "html"
     },
     "Components/Quote": {
-      "fileName": "./stories/containers.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/containers.stories.js",
       "framework": "html"
     },
     "Components/Dialogs": {
-      "fileName": "./stories/dialogs.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/dialogs.stories.js",
       "framework": "html"
     },
     "Welcome/Docs": {
-      "fileName": "./stories/docs.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/docs.stories.js",
       "framework": "html"
     },
     "Components/Dropdown Menu": {
-      "fileName": "./stories/dropdownMenu.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/dropdownMenu.stories.js",
       "framework": "html"
     },
     "Components/Inputs": {
-      "fileName": "./stories/fields.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/fields.stories.js",
       "framework": "html"
     },
     "Components/Hint": {
-      "fileName": "./stories/hint.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/hint.stories.js",
       "framework": "html"
     },
     "Components/Icon": {
-      "fileName": "./stories/icons.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/icons.stories.js",
       "framework": "html"
     },
     "Components/Link": {
-      "fileName": "./stories/links.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/links.stories.js",
       "framework": "html"
     },
     "Components/Spinner": {
-      "fileName": "./stories/loader.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/loader.stories.js",
       "framework": "html"
     },
     "Components/Navigation": {
-      "fileName": "./stories/navigation.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/navigation.stories.js",
       "framework": "html"
     },
     "Components/Inputs/Radio": {
-      "fileName": "./stories/radio.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/radio.stories.js",
       "framework": "html"
     },
     "Components/Inputs/Switch": {
-      "fileName": "./stories/switch.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/switch.stories.js",
       "framework": "html"
     },
     "Components/Table": {
-      "fileName": "./stories/tables.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/tables.stories.js",
+      "framework": "html"
+    },
+    "Components/Text Ellipsis": {
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/text-ellipsis.stories.js",
       "framework": "html"
     },
     "Utils/Label": {
-      "fileName": "./stories/text.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/text.stories.js",
       "framework": "html"
     },
     "Components/Toast": {
-      "fileName": "./stories/toast.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/toast.stories.js",
       "framework": "html"
     },
     "Components/Tooltip": {
-      "fileName": "./stories/tooltip.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/tooltip.stories.js",
       "framework": "html"
     },
     "Utils": {
-      "fileName": "./stories/utils.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/utils.stories.js",
       "framework": "html"
     },
     "Validations/Validation": {
-      "fileName": "./stories/validation.stories.js",
+      "fileName": "/Users/gabriel.dantas/Documents/Symphony/symphony-bdk-ui-toolkit-styles/stories/validation.stories.js",
       "framework": "html"
     }
   },
@@ -116,6 +124,15 @@
       "story": "Avatar With Badge",
       "parameters": {
         "__id": "components-avatar--avatar-with-badge"
+      }
+    },
+    "components-badge--badge": {
+      "id": "components-badge--badge",
+      "name": "Badge",
+      "kind": "Components/Badge",
+      "story": "Badge",
+      "parameters": {
+        "__id": "components-badge--badge"
       }
     },
     "components-banner--banner": {
@@ -377,6 +394,15 @@
       "story": "Table",
       "parameters": {
         "__id": "components-table--table"
+      }
+    },
+    "components-text-ellipsis--text-ellipsis": {
+      "id": "components-text-ellipsis--text-ellipsis",
+      "name": "Text Ellipsis",
+      "kind": "Components/Text Ellipsis",
+      "story": "Text Ellipsis",
+      "parameters": {
+        "__id": "components-text-ellipsis--text-ellipsis"
       }
     },
     "utils-label--label": {
